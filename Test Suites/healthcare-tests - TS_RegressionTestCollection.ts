@@ -4,7 +4,7 @@
    <name>healthcare-tests - TS_RegressionTestCollection</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>1</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
@@ -14,8 +14,8 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest 3</testSuiteEntity>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest 3</testSuiteEntity>
+         <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
