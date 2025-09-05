@@ -11,8 +11,31 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudMobileDevice</key>
+                  <value>{
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_android_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_android_phone_16&quot;,
+  &quot;name&quot;: &quot;Any Phone&quot;,
+  &quot;osVersion&quot;: &quot;16&quot;,
+  &quot;os&quot;: &quot;Android&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>MOBILE_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
@@ -20,9 +43,32 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>profile 2</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudMobileDevice</key>
+                  <value>{
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_ios_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_18&quot;,
+  &quot;name&quot;: &quot;Any iPhone&quot;,
+  &quot;osVersion&quot;: &quot;18&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>MOBILE_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
