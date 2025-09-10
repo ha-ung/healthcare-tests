@@ -52,11 +52,11 @@
   &quot;capability&quot;: {
     &quot;availability&quot;: &quot;HIGH&quot;
   },
-  &quot;id&quot;: &quot;any_ios_phone&quot;,
+  &quot;id&quot;: &quot;any_ios_tablet&quot;,
   &quot;isTablet&quot;: false,
-  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_18&quot;,
-  &quot;name&quot;: &quot;Any iPhone&quot;,
-  &quot;osVersion&quot;: &quot;18&quot;,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_tablet_16&quot;,
+  &quot;name&quot;: &quot;Any iPad&quot;,
+  &quot;osVersion&quot;: &quot;16&quot;,
   &quot;os&quot;: &quot;iOS&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
