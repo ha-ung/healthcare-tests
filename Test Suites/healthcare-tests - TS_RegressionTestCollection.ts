@@ -12,7 +12,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Edge Chromium</runConfigurationId>
+            <runConfigurationId>Safari</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
@@ -29,17 +29,14 @@
   &quot;capability&quot;: {
     &quot;availability&quot;: &quot;HIGH&quot;
   },
-  &quot;id&quot;: &quot;google_pixel_8&quot;,
+  &quot;id&quot;: &quot;any_ios_tablet&quot;,
   &quot;isTablet&quot;: false,
-  &quot;manufacturer&quot;: [
-    &quot;Google&quot;
-  ],
-  &quot;mobileDeviceId&quot;: &quot;Pixel_8_android_14&quot;,
-  &quot;name&quot;: &quot;Google Pixel 8&quot;,
-  &quot;displayName&quot;: &quot;Google Pixel 8&quot;,
-  &quot;osVersion&quot;: &quot;14&quot;,
-  &quot;os&quot;: &quot;Android&quot;,
-  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_tablet_16&quot;,
+  &quot;name&quot;: &quot;Any iPad&quot;,
+  &quot;displayName&quot;: &quot;Any iPad&quot;,
+  &quot;osVersion&quot;: &quot;16&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
   &quot;isHighAvailableDevice&quot;: true
