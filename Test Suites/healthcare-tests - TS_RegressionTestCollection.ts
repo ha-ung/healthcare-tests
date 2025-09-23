@@ -12,7 +12,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Safari</runConfigurationId>
+            <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
@@ -21,33 +21,8 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>testCloudMobileDevice</key>
-                  <value>{
-  &quot;capability&quot;: {
-    &quot;availability&quot;: &quot;HIGH&quot;
-  },
-  &quot;id&quot;: &quot;any_ios_tablet&quot;,
-  &quot;isTablet&quot;: false,
-  &quot;mobileDeviceId&quot;: &quot;any_ios_tablet_16&quot;,
-  &quot;name&quot;: &quot;Any iPad&quot;,
-  &quot;displayName&quot;: &quot;Any iPad&quot;,
-  &quot;osVersion&quot;: &quot;16&quot;,
-  &quot;os&quot;: &quot;iOS&quot;,
-  &quot;platformName&quot;: &quot;IOS&quot;,
-  &quot;timeout&quot;: 15,
-  &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: true
-}</value>
-               </entry>
-               <entry>
-                  <key>testCloudSessionType</key>
-                  <value>MOBILE_BROWSER</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>TestCloud</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Remote</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
