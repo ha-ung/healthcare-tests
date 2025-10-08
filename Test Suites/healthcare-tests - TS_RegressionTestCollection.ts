@@ -46,21 +46,15 @@
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudMobileDevice</key>
+                  <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;capability&quot;: {
-    &quot;availability&quot;: &quot;MEDIUM&quot;
-  },
-  &quot;id&quot;: &quot;apple_ipad_pro_12.9_2020&quot;,
-  &quot;isTablet&quot;: false,
-  &quot;manufacturer&quot;: [
-    &quot;Apple&quot;
-  ],
-  &quot;mobileDeviceId&quot;: &quot;iPad_Pro_12_9_26_beta_real_sjc1&quot;,
-  &quot;name&quot;: &quot;Apple iPad Pro 12.9 2020&quot;,
-  &quot;displayName&quot;: &quot;Apple iPad Pro 12.9 2020&quot;,
-  &quot;osVersion&quot;: &quot;26.1&quot;,
-  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;id&quot;: 1057,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;142&quot;,
+  &quot;browserVersionType&quot;: &quot;beta&quot;,
+  &quot;os&quot;: &quot;windows&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
@@ -69,7 +63,7 @@
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>MOBILE_BROWSER</value>
+                  <value>DESKTOP_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
