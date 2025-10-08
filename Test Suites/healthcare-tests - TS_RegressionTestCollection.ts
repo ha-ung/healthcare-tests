@@ -16,11 +16,11 @@
                <entry>
                   <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;id&quot;: 78,
+  &quot;id&quot;: 761,
   &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;internet explorer&quot;,
-  &quot;browserDisplayName&quot;: &quot;Internet Explorer&quot;,
-  &quot;browserVersion&quot;: &quot;11&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;140&quot;,
   &quot;browserVersionType&quot;: &quot;stable&quot;,
   &quot;os&quot;: &quot;windows&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
