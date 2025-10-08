@@ -46,24 +46,27 @@
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudDesktopBrowser</key>
+                  <key>testCloudMobileDevice</key>
                   <value>{
-  &quot;id&quot;: 1057,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;chrome&quot;,
-  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;142&quot;,
-  &quot;browserVersionType&quot;: &quot;beta&quot;,
-  &quot;os&quot;: &quot;windows&quot;,
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_ios_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_18&quot;,
+  &quot;name&quot;: &quot;Any iPhone&quot;,
+  &quot;displayName&quot;: &quot;Any iPhone&quot;,
+  &quot;osVersion&quot;: &quot;18&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: false
+  &quot;isHighAvailableDevice&quot;: true
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>DESKTOP_BROWSER</value>
+                  <value>MOBILE_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
@@ -78,7 +81,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/New Dynamic Test Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
