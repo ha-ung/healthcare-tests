@@ -41,10 +41,38 @@
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Mobile</groupName>
+            <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>iOS</runConfigurationId>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudMobileDevice</key>
+                  <value>{
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;apple_iphone_16&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;manufacturer&quot;: [
+    &quot;Apple&quot;
+  ],
+  &quot;mobileDeviceId&quot;: &quot;iPhone_16_ios_18&quot;,
+  &quot;name&quot;: &quot;Apple iPhone 16&quot;,
+  &quot;displayName&quot;: &quot;Apple iPhone 16&quot;,
+  &quot;osVersion&quot;: &quot;18&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false,
+  &quot;isHighAvailableDevice&quot;: true
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>MOBILE_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
