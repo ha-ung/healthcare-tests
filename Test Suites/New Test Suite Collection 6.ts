@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>New Test Suite Collection 5</name>
+   <name>New Test Suite Collection 6</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
@@ -14,7 +14,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
