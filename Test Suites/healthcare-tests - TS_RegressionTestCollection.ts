@@ -56,7 +56,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/New Dynamic Test Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
