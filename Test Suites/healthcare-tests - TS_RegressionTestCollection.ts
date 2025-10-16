@@ -44,31 +44,6 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>testCloudMobileDevice</key>
-                  <value>{
-  &quot;capability&quot;: {
-    &quot;availability&quot;: &quot;HIGH&quot;
-  },
-  &quot;id&quot;: &quot;any_ios_phone&quot;,
-  &quot;isTablet&quot;: false,
-  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_18&quot;,
-  &quot;name&quot;: &quot;Any iPhone&quot;,
-  &quot;displayName&quot;: &quot;Any iPhone&quot;,
-  &quot;osVersion&quot;: &quot;18&quot;,
-  &quot;os&quot;: &quot;iOS&quot;,
-  &quot;platformName&quot;: &quot;IOS&quot;,
-  &quot;timeout&quot;: 15,
-  &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: true
-}</value>
-               </entry>
-               <entry>
-                  <key>testCloudSessionType</key>
-                  <value>MOBILE_BROWSER</value>
-               </entry>
-            </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -79,7 +54,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Edge Chromium</runConfigurationId>
+            <runConfigurationId>Edge</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/New Dynamic Test Suite</testSuiteEntity>
