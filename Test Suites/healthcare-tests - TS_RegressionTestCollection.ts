@@ -11,30 +11,8 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>testCloudDesktopBrowser</key>
-                  <value>{
-  &quot;id&quot;: 78,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;internet explorer&quot;,
-  &quot;browserDisplayName&quot;: &quot;Internet Explorer&quot;,
-  &quot;browserVersion&quot;: &quot;11&quot;,
-  &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;windows&quot;,
-  &quot;platformName&quot;: &quot;IOS&quot;,
-  &quot;timeout&quot;: 15,
-  &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: false
-}</value>
-               </entry>
-               <entry>
-                  <key>testCloudSessionType</key>
-                  <value>DESKTOP_BROWSER</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>TestCloud</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/healthcare-tests - TS_RegressionTest</testSuiteEntity>
@@ -42,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>test</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Safari</runConfigurationId>
          </configuration>
@@ -54,9 +32,9 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Edge</runConfigurationId>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/New Dynamic Test Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
