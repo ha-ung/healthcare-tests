@@ -53,13 +53,13 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/New Dynamic Test Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>haha</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
